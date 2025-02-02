@@ -41,7 +41,7 @@ const Quiz = () => {
   };
   return (
     <div className="quiz-page">
-      <h2>QUIZ</h2>
+      <h2>{`${index} of ${question.length}`}</h2>
       <div className="ques-div">
         {question === null || question.length === 0 ? (
           <p>Loading...</p>
