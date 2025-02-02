@@ -1,18 +1,28 @@
 import React from "react";
-import "../App.css"
-
+import "../App.css";
+// const [ans, setAns] = useState(second)
 const Options = (props) => {
+  // if(props.selectOption.is_correct){
+  //   console.log("TRUe")
+  // }
+
   return (
     <div className="options">
-      {/* <p>{JSON.stringify(props.options.id)}</p> */}
       {props.options.map((x) => (
-        // <p key={x.id}>{x.description}</p>
-        <div className="op" key={x.id}>
-          <input  type="radio" name="option" value={x.description} />
-          <label htmlFor="">{x.description}</label>
-        </div>
+        <button className="op"
+          style={{
+            border: props.selectOption?.id === x.id ? "solid black" : "none",
+          }}
+          key={x.id}
+          onClick={() => props.handleOption(x)}
+        >
+          {x.description}
+        </button>
       ))}
-      {/* <button className="submit-btn">SUBMIT</button> */}
+      {/* {props.selectOption && (
+        <p>{props.selectOption.is_correct ? "✅ Correct Answer" : "❌ Wrong Answer"}</p>
+      )} */}
+      {/* <button onClick={handleCheckAns(props.selectOption)}>CHECK ANSWER</button> */}
     </div>
   );
 };
