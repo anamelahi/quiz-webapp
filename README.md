@@ -40,4 +40,6 @@ node server.js
 ```
 ## 📸 Screenshots
 ![image](https://github.com/user-attachments/assets/1f304ec8-139d-4fb1-bf8b-e4005961d440)
+![image](https://github.com/user-attachments/assets/b0733e93-46dc-4a49-beec-2d766391ed15)
+
 
