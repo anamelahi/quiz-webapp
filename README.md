@@ -22,8 +22,8 @@ A web-based quiz application with gamification features, built using **React** f
 ## 📦 Installation & Setup
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO.git
-cd YOUR-REPO
+https://github.com/anamelahi/quiz-webapp.git
+cd quiz-webapp
 ```
 ### 2️⃣ Install Dependencies
 FRONTEND
